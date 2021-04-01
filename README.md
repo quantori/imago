@@ -1,3 +1,6 @@
+# Install Cmake
+[Follow official instructions](https://cmake.org/install/)
+
 # Install OpenCV library
 
 1. [Follow official instructions](https://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html)
