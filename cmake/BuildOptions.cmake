@@ -1,10 +1,11 @@
-if(SYSTEM_NAME STREQUAL "Win")
-	include(BuildOptionsWin)
-elseif(SYSTEM_NAME STREQUAL "Linux")
-	include(BuildOptionsLinux)
-elseif(SYSTEM_NAME STREQUAL "Mac")
-	include(BuildOptionsMac)
-endif()
+find_package(Threads REQUIRED)
+
+set(IMAGO_C_FLAGS "")
+
+add_definitions("${IMAGO_C_FLAGS}")
+set(CMAKE_EXE_LINKER_FLAGS ${CMAKE_EXE_LINKER_FLAGS_INIT})
+set(CMAKE_SHARED_LINKER_FLAGS ${CMAKE_SHARED_LINKER_FLAGS_INIT})
+set(LINK_FLAGS "${LINK_FLAGS}")
 
 if(NOT LIBS_LOCATION)
 	message(FATAL_ERROR "Please set LIBS_LOCATION variable")
