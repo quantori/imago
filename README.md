@@ -27,7 +27,7 @@ git submodule update
 sudo apt-get install libfreetype6-dev
 ```
 
-#Install Fontconfig library
+# Install Fontconfig library
 ```
 sudo apt-get install libfontconfig1-dev
 ```
