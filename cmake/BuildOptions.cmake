@@ -10,7 +10,7 @@ set(LINK_FLAGS "${LINK_FLAGS}")
 if(NOT LIBS_LOCATION)
 	message(FATAL_ERROR "Please set LIBS_LOCATION variable")
 endif()
-set(THIRD_PARTY_DIR ${CMAKE_SOURCE_DIR}/third_party)
+set(THIRD_PARTY_DIR ${CMAKE_SOURCE_DIR}/imago-third-party)
 
 include(Boost)
 include(OpenCV)
