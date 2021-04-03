@@ -1,0 +1,3 @@
+[submodule "imago-third-party"]
+	path = imago-third-party
+	url = https://github.com/quantori/imago-third-party.git
